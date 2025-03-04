@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Foreign Education Consultancy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #0056b3;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+        }
+
+        nav a:hover {
+            background-color: #004094;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .services, .contact, .form-section {
+            margin-top: 20px;
+        }
+
+        .services h2, .form-section h2, .contact h2 {
+            color: #007bff;
+        }
+
+        .service-item {
+            margin: 15px 0;
+        }
+
+        .form-section form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-section label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .form-section input, .form-section textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .form-section input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            padding: 15px;
+        }
+
+        .form-section input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .chatbot {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+        
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Foreign Education Consultancy</h1>
+    <p>Your gateway to international education, visas, and loans</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Visa Info</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Study Abroad Guidance</h3>
+            <p>We provide detailed advice on courses and universities globally.</p>
+        </div>
+        <div class="service-item">
+            <h3>Visa Processing</h3>
+            <p>Our expert team will handle your visa applications smoothly.</p>
+        </div>
+        <div class="service-item">
+            <h3>Educational Loans</h3>
+            <p>Get assistance with educational loans and financial advice.</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Apply Now</h2>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+            
+            <label for="course">Interested Course</label>
+            <input type="text" id="course" name="course" placeholder="Course you want to study">
+            
+            <label for="visa">Visa Type</label>
+            <input type="text" id="visa" name="visa" placeholder="Visa type">
+            
+            <label for="credit-card">Credit Card (for loan application)</label>
+            <input type="text" id="credit-card" name="credit-card" placeholder="Enter your credit card details">
+
+            <input type="submit" value="Submit Application">
+        </form>
+    </section>
+
+    <section class="chatbot">
+        <h2>Chat with our AI Bot</h2>
+        <p>Need help? Ask our AI chatbot for information about courses, visas, and more.</p>
+        <!-- Placeholder for AI chatbot -->
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Foreign Education Consultancy | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
